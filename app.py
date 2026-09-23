@@ -46,7 +46,7 @@ st.markdown(
         border: 1.5px solid #00E5FF;
         border-radius: 10px;
         padding: 10px 14px;
-        box-shadow: 0 0 10px rgba(0, 229, 255, 0.3), inset 0 0 6px rgba(0, 229, 255, 0.12);
+        box-shadow: 0 0 10px rgba(0, 229, 255, 0.1), inset 0 0 6px rgba(0, 229, 255, 0.12);
         backdrop-filter: blur(14px);
         min-height: 100px;
         display: flex;
