@@ -10,7 +10,7 @@ An interactive Streamlit dashboard that helps HR teams understand employee absen
 
 ## Screenshot
 
-![Dashboard](screenshot.png)
+![Dashboard](Screenshot_Absent_Dashboard.png)
 
 ## What the project does
 
