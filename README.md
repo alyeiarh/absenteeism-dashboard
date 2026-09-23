@@ -1,6 +1,6 @@
 # Absenteeism Management System Dashboard
 
-**Mini DataCamp Hackathon – First Prize (Sep 2026)**
+**Mini DataCamp Hackathon – First Prize 🏆 (Sep 2026)**
 
 This project was my entry for the Mini DataCamp Hackathon, and I was grateful to receive first place. 🎉 The task was to analyse an HR absenteeism dataset and look for insights that could help improve employee productivity. I cleaned the data, trained a machine learning model to predict types of absence, and presented the results in a one-page interactive dashboard.
 
