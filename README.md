@@ -4,19 +4,28 @@
 
 An interactive Streamlit dashboard that helps HR teams understand employee absenteeism and predict absence categories. It shows KPI cards, monthly absence trends, workload against target achievement, health and commute patterns, and daily predictions from a machine learning model.
 
-**Live demo:** [https://absenteeism-dashboard-cadybmdrdwjfktrswdpgen.streamlit.app/]
+**🚀 Try the live demo:** [https://absenteeism-dashboard-cadybmdrdwjfktrswdpgen.streamlit.app/]
 
-> **Note:** The original competition dataset is private. This public version runs on **synthetic data** generated to match the original's column distributions and key patterns (`generate_demo_data.py`). No real record is included, and the numbers in the demo are not the official results.
+> **🔒 About the data:** The original competition dataset is private, so this public version runs on synthetic data I generated to match the original's column distributions and key patterns (generate_demo_data.py). No real employee records are included, and the numbers in the demo are not the official competition results.
 
 ## Screenshot
 
 ![Dashboard](Screenshot_Absent_Dashboard.png)
 
-## What the project does
+## 💡 What the dashboard shows
+- **KPI cards:** average target achievement, the age group with the most absence hours, average absence per incident and the peak absence month
+- **Monthly absence trend:** which months lose the most working hours
+- **Workload vs target:** months where the team falls below target
+- **Health and commute patterns:** how age, BMI and distance from work relate to absence
+- **Today's predictions:** how many employees are likely to take a Time Slip, Medical Leave (MC) or an Abnormal Absence
+
+Every chart comes with a short plain-language insight, so HR users don't need a data background to understand it.
+
+## 🛠️ How I built it
 
 - **Data cleaning:** found and replaced missing values (including `#` placeholders) across 17 columns, and grouped absence hours into three classes: Time Slip, Medical Leave (MC) and Abnormal Absence.
-- **Prediction:** trained a K-Nearest Neighbours (KNN) classifier, tuned with GridSearchCV, to predict the absence category (Time Slip, MC or Abnormal) of an employee record.
-- **Dashboard:** built in Streamlit with Plotly charts, KPI cards and plain-language insight boxes for non-technical HR users.
+- **Prediction:** trained a KNN classifier, tuned with GridSearchCV, to predict the absence category of an employee record.
+- **Dashboard:** built in Streamlit with Plotly charts, KPI cards and insight boxes designed for HR users.
 
 ## Tech stack
 
@@ -48,3 +57,7 @@ To rebuild the demo data and model (requires the private dataset in `data/`):
 python generate_demo_data.py
 python train_demo_model.py
 ```
+
+---
+
+Thanks for checking out my project! 🙌
