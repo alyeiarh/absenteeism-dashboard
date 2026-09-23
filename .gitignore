@@ -1,0 +1,11 @@
+# Private hackathon data - never upload
+data/
+absent_cleaned.csv
+abnormal_employees.csv
+*.xls
+*.xlsx
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
