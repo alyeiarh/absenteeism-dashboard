@@ -102,9 +102,9 @@ st.markdown(
     div[data-testid="stVerticalBlockBorderWrapper"],
     div[class*="st-key-card_"] {
         background: linear-gradient(150deg, rgba(32, 17, 58, 0.75) 0%, rgba(13, 8, 28, 0.95) 100%) !important;
-        border: 1.2px solid rgba(255, 255, 255, 0.3) !important;
+        border: 1.2px solid rgba(255, 255, 255, 0.1) !important;
         border-radius: 10px !important;
-        padding: 8px 10px !important;
+        padding: 8px 10px 18px 10px !important; 
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.08) !important;
         backdrop-filter: blur(12px);
         margin-bottom: 0px !important;
