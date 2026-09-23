@@ -2,7 +2,7 @@
 
 **Mini DataCamp Hackathon – First Prize 🏆 (Sep 2026)**
 
-This project was my entry for the Mini DataCamp Hackathon, and I was grateful to receive first place. 🎉 The challenge was to analyse an HR absenteeism dataset and look for insights that could help improve employee productivity all within 22 hours. I cleaned the data, trained a machine learning model to predict types of absence, and presented the results in a one-page interactive dashboard.
+This project was my entry for the Mini DataCamp Hackathon, and I was grateful to receive first place. 🎉 The challenge was to analyse employee absenteeism dataset and look for insights that could help improve employee productivity all within 22 hours. I cleaned the data, trained a machine learning model to predict types of absence, and presented the results in a one-page interactive dashboard.
 
 **🚀 Try the live demo:** [https://absenteeism-dashboard-cadybmdrdwjfktrswdpgen.streamlit.app/]
 
