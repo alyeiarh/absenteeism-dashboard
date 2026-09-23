@@ -2,7 +2,7 @@
 
 **Mini DataCamp Hackathon – First Prize (Sep 2026)**
 
-An interactive Streamlit dashboard that helps HR teams understand employee absenteeism and predict absence categories. It shows KPI cards, monthly absence trends, workload against target achievement, health and commute patterns, and daily predictions from a machine learning model.
+This project was my entry for the Mini DataCamp Hackathon, and I was grateful to receive first place. 🎉 The task was to analyse an HR absenteeism dataset and look for insights that could help improve employee productivity. I cleaned the data, trained a simple machine learning model to predict types of absence, and put the results together in a one-page dashboard.
 
 **🚀 Try the live demo:** [https://absenteeism-dashboard-cadybmdrdwjfktrswdpgen.streamlit.app/]
 
@@ -19,13 +19,13 @@ An interactive Streamlit dashboard that helps HR teams understand employee absen
 - **Health and commute patterns:** how age, BMI and distance from work relate to absence
 - **Today's predictions:** how many employees are likely to take a Time Slip, Medical Leave (MC) or an Abnormal Absence
 
-Every chart comes with a short plain-language insight, so HR users don't need a data background to understand it.
+I added a short insight under each chart to make the results easier to understand.
 
 ## 🛠️ How I built it
 
 - **Data cleaning:** found and replaced missing values (including `#` placeholders) across 17 columns, and grouped absence hours into three classes: Time Slip, Medical Leave (MC) and Abnormal Absence.
 - **Prediction:** trained a KNN classifier, tuned with GridSearchCV, to predict the absence category of an employee record.
-- **Dashboard:** built in Streamlit with Plotly charts, KPI cards and insight boxes designed for HR users.
+- **Dashboard:** built in Streamlit with Plotly charts, KPI cards and short insight boxes that explain each chart in simple words.
 
 ## Tech stack
 
