@@ -4,7 +4,7 @@
 
 An interactive Streamlit dashboard that helps HR teams understand employee absenteeism and predict absence categories. It shows KPI cards, monthly absence trends, workload against target achievement, health and commute patterns, and daily predictions from a machine learning model.
 
-**Live demo:** [add your Streamlit link here]
+**Live demo:** [https://absenteeism-dashboard-cadybmdrdwjfktrswdpgen.streamlit.app/]
 
 > **Note:** The original competition dataset is private. This public version runs on **synthetic data** generated to match the original's column distributions and key patterns (`generate_demo_data.py`). No real record is included, and the numbers in the demo are not the official results.
 
